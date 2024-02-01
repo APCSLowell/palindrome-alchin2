@@ -48,4 +48,13 @@ public String reverse(String str)
   }
     return sNew;
 }
+  public String onlyLetters(String sString){
+  String str = "";
+  for (int i = 0; i <sString.length();i++){
+    char ch = sString.charAt(i);
+    if (Character.isLetter(ch)){str+=ch;}
+  }
+return str;
+}
+
 }
